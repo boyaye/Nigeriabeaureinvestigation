@@ -33,14 +33,14 @@ header img{
 header center{
     background-color: rgb(4, 97, 32);
     color: white;
-    width: 1005;
+    width: 100%;
     margin-top: 5px;
-    padding: 5px;
+    padding: 10px;
 }
 
 header nav {
 display: flex;
-gap: 10px;
+gap: 15px;
 white-space: nowrap;
 overflow: scroll;
 padding: 8px;
@@ -50,4 +50,33 @@ scrollbar-color: #f8f9fa #f8f9fa;
 center{
     display: flex;
     justify-content: space-between;
+}
+.coatofarm{
+    display: flex;
+    align-items: center;
+}
+
+.coatofarm img{
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+header .join{
+    display: flex;
+    gap: 15px;
+}
+header .join a{
+    color: white;
+}
+
+.mainmenu{
+    display: flex;
+    justify-content: space-between;
+padding: 5px;
+}
+.mainmenu .search{
+    display: flex;
+    gap: 3px;
+    align-items: center;
 }

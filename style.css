@@ -72,11 +72,31 @@ header .join a{
 
 .mainmenu{
     display: flex;
-    justify-content: space-between;
+    gap: 10%;
 padding: 5px;
+
+}
+.mainmenu .more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(22, 24, 22);
+
+    width: 20%;
 }
 .mainmenu .search{
     display: flex;
     gap: 3px;
     align-items: center;
+
+    width: 80%;
+    
+}
+
+.mainmenu .search input{
+    padding: 5px;
+ border: 1px solid grey;
+ width: 100%;
+ border-radius: 5px;
+
 }

@@ -44,6 +44,7 @@ gap: 10px;
 white-space: nowrap;
 overflow: scroll;
 padding: 8px;
+scrollbar-color: #f8f9fa #f8f9fa;
 }
 
 center{
